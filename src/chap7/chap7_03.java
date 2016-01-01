@@ -1,23 +1,20 @@
 package chap7;
 
 import java.util.Scanner;
-
-import static chap7.chap7_03.med;
-
 /**
  * Created by simezi on 2015/12/26.
  */
 public class chap7_03 {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
-        System.out.print("®”aF");
+        System.out.print("æ•´æ•°aï¼š");
         int a = stdIn.nextInt();
-        System.out.print("®”bF");
+        System.out.print("æ•´æ•°bï¼š");
         int b = stdIn.nextInt();
-        System.out.print("®”cF");
+        System.out.print("æ•´æ•°cï¼š");
         int c = stdIn.nextInt();
 
-        System.out.println("’†‰›’l‚Í" + med(a, b, c) + "‚Å‚·B");
+        System.out.println("ä¸­å¤®å€¤ã¯" + med(a, b, c) + "ã§ã™ã€‚");
     }
 
     public static int med(int a, int b, int c) {

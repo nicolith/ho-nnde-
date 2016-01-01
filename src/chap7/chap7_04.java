@@ -1,7 +1,6 @@
 package chap7;
 
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 /**
  * Created by simezi on 2015/12/26.
